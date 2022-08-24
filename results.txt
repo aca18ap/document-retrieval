@@ -1,0 +1,143 @@
+RESULTS 
+
+tf 
+
+    tf
+        -p -s
+            Precision:       0.16
+            Recall:          0.13
+            F-measure:       0.14
+            runtime:         0.263
+        -p
+            Precision:       0.12
+            Recall:          0.10
+            F-measure:       0.11
+        -s
+            Precision:       0.14
+            Recall:          0.11
+            F-measure:       0.12
+        None:
+            Precision:       0.10
+            Recall:          0.08
+            F-measure:       0.09
+
+    max_tf_norm
+        -p -s
+            Precision:       0.19
+            Recall:          0.15
+            F-measure:       0.17
+        -p
+            Precision:       0.14
+            Recall:          0.11
+            F-measure:       0.13
+        -s
+            Precision:       0.15
+            Recall:          0.12
+            F-measure:       0.14
+
+        None
+            Precision:       0.11
+            Recall:          0.09
+            F-measure:       0.10
+
+
+
+    1+log(tf)
+        -p -s
+            Precision:       0.19
+            Recall:          0.15
+            F-measure:       0.17
+            runtime:     0.228
+        -p
+            Precision:       0.14
+            Recall:          0.11
+            F-measure:       0.13
+            runtime:     0.644
+        -s
+            Precision:       0.15
+            Recall:          0.12
+            F-measure:       0.14
+            runtime:     0.247
+        None
+            Precision:       0.12
+            Recall:          0.09
+            F-measure:       0.10
+            runtime:     0.607
+
+
+Binary
+    -p -s
+        Precision:       0.16
+        Recall:          0.13
+        F-measure:       0.14
+        Avg runtime:  0.133
+
+    -p 
+        Precision:       0.12
+        Recall:          0.09
+        F-measure:       0.10
+        Avg runtime:  0.408
+    -s
+        Precision:       0.15
+        Recall:          0.12
+        F-measure:       0.14
+    None:
+        Precision:       0.12
+        Recall:          0.09
+        F-measure:       0.10
+
+
+tfidf
+    1+log(tf)
+        -p -s
+            Precision:       0.21
+            Recall:          0.17
+            F-measure:       0.18
+        -p
+            Precision:       0.25
+            Recall:          0.20
+            F-measure:       0.22
+        -s
+            Precision:       0.17
+            Recall:          0.14
+            F-measure:       0.15
+        None:
+            Precision:       0.22
+            Recall:          0.17
+            F-measure:       0.19
+    tf
+        -p -s
+            Precision:       0.19
+            Recall:          0.15
+            F-measure:       0.17
+        -p
+            Precision:       0.20
+            Recall:          0.16
+            F-measure:       0.18
+        -s
+            Precision:       0.19
+            Recall:          0.15
+            F-measure:       0.17
+        None:
+            Precision:       0.19
+            Recall:          0.15
+            F-measure:       0.17
+    max_tf_norm
+        -p -s
+            Precision:       0.19
+            Recall:          0.15
+            F-measure:       0.17
+        -p
+            Precision:       0.23
+            Recall:          0.18
+            F-measure:       0.20
+        -s
+            Precision:       0.14
+            Recall:          0.12
+            F-measure:       0.13
+        None
+            Precision:       0.20
+            Recall:          0.16
+            F-measure:       0.18   
+
+
